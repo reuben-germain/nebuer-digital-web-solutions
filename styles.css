@@ -13,6 +13,12 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 1px solid red;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
 }
