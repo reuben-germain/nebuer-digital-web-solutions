@@ -115,3 +115,9 @@ footer {
 .form-group label {
     margin-bottom: 0.5rem;
 }
+
+.form-group input {
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
