@@ -9,3 +9,18 @@ Nebuer Digital Web Solutions is a modern, responsive, and accessible website tem
 
 ### Hero Section
 - Features a prominent call-to-action button to engage visitors.
+
+### Services Section
+- Showcases the different services offered by the consultancy.
+
+### Portfolio Section
+- Displays completed projects to demonstate
+
+### About
+- Introduces the company and provides background information.
+
+### Contact Section
+- Includes a form for potential clients to send inquiries.
+
+### Footer
+- Contains copyright information and any additional links or information.
