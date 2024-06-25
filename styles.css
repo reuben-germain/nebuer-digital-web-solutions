@@ -116,7 +116,8 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-.form-group input {
+.form-group input,
+.form-group textarea{
     padding: 0.5rem;
     border: 2px solid #ccc;
     border-radius: 5px;
