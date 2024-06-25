@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Your code here
-  const menuIcon = document.getElementById('menu-icon');
-  const navLinks = document.getElementById('nav-links');
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
 
     menuIcon.addEventListener('click', () => {
-      navLinks.classList.toggle('show');
+        navLinks.classList.toggle('show');
     });
 });
