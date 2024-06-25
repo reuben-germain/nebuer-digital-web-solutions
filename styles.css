@@ -92,3 +92,11 @@ header nav ul li a {
     height: auto;
     border-radius: 5px;
 }
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
