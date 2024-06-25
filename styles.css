@@ -26,3 +26,9 @@ header {
 header h1 {
     text-align: center;
 }
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
