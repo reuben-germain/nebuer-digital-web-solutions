@@ -20,6 +20,7 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
+    position: relative;
 }
 
 header h1 {
