@@ -56,3 +56,13 @@ header nav ul li a {
     align-items: center;
     text-align: center; */
 }
+
+.cta-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
