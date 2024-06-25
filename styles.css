@@ -111,3 +111,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.form-group label {
+    margin-bottom: 0.5rem;
+}
