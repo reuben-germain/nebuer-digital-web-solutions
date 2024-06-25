@@ -32,3 +32,8 @@ header nav ul {
     justify-content: center;
     list-style: none;
 }
+
+header nav ul li {
+    /* padding: 0 1rem; */
+    margin: 0 1rem;
+}
