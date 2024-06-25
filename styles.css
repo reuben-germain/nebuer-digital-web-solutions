@@ -50,6 +50,12 @@ header nav ul li a {
     font-weight: bold;
 }
 
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
 #hero {
     background: #1e90ff;
     color: #fff;
