@@ -45,10 +45,14 @@ header nav ul li a {
 }
 
 #hero {
-    background: url('https://images.unsplash.com/photo-1557683316-973673baf926') no-repeat center center/cover;
+    background: #1e90ff;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    /* background: url('https://images.unsplash.com/photo-1557683316-973673baf926') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
 }
