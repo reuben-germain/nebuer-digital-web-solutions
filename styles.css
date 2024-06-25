@@ -56,6 +56,13 @@ header nav ul li a {
     cursor: pointer;
 }
 
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+}
+
 #hero {
     background: #1e90ff;
     color: #fff;
