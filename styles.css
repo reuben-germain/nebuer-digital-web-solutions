@@ -137,6 +137,18 @@ a {
     margin-top: 1rem;
 }
 
+.cta-button:hover {
+    background: #555;
+    color: dodgerblue;
+    transition: 0.7 ease;
+}
+
+/* SERVICES & PORTFOLIO SECTION */
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .section-padding {
     padding: 3rem 0;
 }
