@@ -82,3 +82,42 @@ Nebuer Digital Web Solutions is a modern, responsive, and accessible website tem
 - ```.form-group label``` adds bottom margin to labels.
 - ```.form-group input``` and ```.form-group textarea``` style form inputs with padding, border, and border-radius.
 - ```button.cta-button``` styles submit buttons within forms, including a background color and padding.
+
+## JavaScript for Navbar Interactivity
+
+```javascript
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+```
+
+- Selectors: The ```querySelector``` method is used to select the ```.hamburger``` and ```.nav-menu``` elements from the DOM. The ```hamburger``` represents the hamburger menu icon, and ```navMenu``` represents the navigation menu.
+---
+
+```javascript
+hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+});
+```
+- Event Listener for Click: An event listener is added to the ```hamburger``` element that listens for ```click``` events.
+- Class Toggle: When the hamburger icon is clicked, the ```active``` class is toggled on both the ```hamburger``` and ```navMenu``` elements. This ```active``` class controls the visibility and animation of the navigation menu in the CSS.
+---
+
+```javascript
+document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+}));
+```
+- Close Menu on Link Click: The ```querySelectorAll``` method is used to select all elements with the class ```.nav-link```. The ```forEach``` method iterates over each of these elements.
+- Event Listener for Links: For each navigation link, an event listener is added that listens for ```click``` events.
+- Class Removal: When any navigation link is clicked, the ```active``` class is removed from both the ```hamburger``` and ```navMenu``` elements. This ensures the navigation menu closes when a link is clicked.
+
+### Summary
+This JavaScript code provides the following functionality:
+
+1. Toggle Navigation Menu: Clicking the hamburger icon toggles the visibility of the navigation menu.
+2. Responsive Interaction: Ensures the navigation menu can be opened and closed on smaller screens.
+3. Close on Link Click: Automatically closes the navigation menu when a link is clicked, improving user experience on mobile devices.
+
+This functionality is essential for creating a responsive and interactive navigation experience on websites, particularly for smaller screen sizes where a traditional navigation bar may not be feasible.
